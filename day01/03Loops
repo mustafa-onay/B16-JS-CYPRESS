@@ -1,0 +1,27 @@
+// loops are same with Java
+
+for (let i = 0; i < 5; i++) {
+    console.log("for loop = " + i)
+}
+
+//console.log("for loop = " + i)  //undefined
+
+for (var j = 0; j < 5; j++) {
+    console.log("for loop var = " + j)
+}
+
+console.log("for loop var outer loop = " + j)
+
+let k = 0;
+
+while (k < 5) {
+    console.log("while loop =" + k)
+    k++
+}
+
+let l = 0;
+
+do {
+    console.log("do while loop = " + l)
+    l++
+} while (l < 5)
