@@ -44,3 +44,46 @@ const push = colors.push("pink")
 
 console.log(push)
 console.log(colors)
+
+const shift = colors.shift()
+
+console.log(shift)
+console.log(colors)
+
+const unshift = colors.unshift("yellow")
+
+console.log(unshift)
+console.log(colors)
+
+const sort = colors.sort()
+
+console.log(sort)
+
+const reverse = colors.reverse()
+
+console.log(reverse)
+
+console.log(colors.length)
+
+for (let i = 0; i < colors.length; i++) {
+    const element = colors[i];
+    console.log(element)
+}
+
+console.log("*********************************")
+for (const element of colors) {
+    console.log(element)
+}
+
+console.log("*********************************")
+colors.forEach(element => {
+    console.log(element)
+});
+
+console.log("*********************************")
+
+let multipleData = [11, "javascript", true, undefined]
+
+multipleData.forEach(element => {
+    console.log(typeof element, element)
+});
