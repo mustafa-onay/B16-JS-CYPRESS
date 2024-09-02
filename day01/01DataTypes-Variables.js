@@ -62,3 +62,36 @@ a = "Javascript"
 
 console.log(d + a + " and " + c)
 console.log(`${d}${a} and ${c}`)
+
+var name = "mustafa"
+var age = 33
+var nameObject = {firstName:"mustafa", lastName:"onay"}
+var isActive = false
+var skills = ["javascript", "Cypress", "java"]
+
+console.log(`My name is ${nameObject.firstName} ${nameObject.lastName} and I am ${age} years old.`)
+
+console.log(name) //mustafa
+
+var name = "Orhan"  // Orhan
+
+console.log(name)
+
+//object
+
+var student={
+    firstName:"Jack",
+    lastName:"Sparrow",
+    age:68,
+    height: 180,
+    fullName:function(){
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+const ageValue = student.age
+console.log(ageValue)
+
+const fullNameValue = student.fullName()
+
+console.log(fullNameValue)
